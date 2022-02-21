@@ -1,0 +1,23 @@
+{
+  "name": "npmpackage",
+  "version": "1.0.0",
+  "description": "titi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start run.js --log-date-format='YYYY-MM-DD HH:mm:ss:SSS'",
+    "restart": "pm2 restart run.js --log-date-format='YYYY-MM-DD HH:mm:ss:SSS'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@binance/connector": "^1.7.0",
+    "axios": "^0.25.0",
+    "binance-futures-connector": "^1.0.5",
+    "express": "^4.17.3",
+    "https-proxy-agent": "^5.0.0",
+    "node-localstorage": "^2.2.1",
+    "telegram-bot-api": "^2.0.1",
+    "ws": "^8.4.2"
+  }
+}

@@ -1,0 +1,53 @@
+{
+    "env": "dev",
+    "isRestart": true,
+    "apiKey": "",
+    "apiSecret": "",
+    "teleBotToken": "5039617435:AAG9lgyAM-t7LwI-TfVS39pk31W6XlUrz9w",
+    "proxyIp": "127.0.0.1",
+    "proxy": 1087,
+    "listenPort": 30010,
+    "isDoshort": true,
+    "chat_id": [
+        -1001784840574
+    ],
+    "coinList": [
+        "ETHUSDT"
+    ],
+    "ETHUSDT": {
+        "runBet": {
+            "next_buy_price": 2750,
+            "grid_sell_price": 2750,
+            "step": 0,
+            "recorded_price": []
+        },
+        "config": {
+            "cointype": "ETHUSDT",
+            "profit_ratio": 0.3,
+            "double_throw_ratio": 0.5,
+            "quantity": [
+                0.003,
+                0.004,
+                0.005
+            ]
+        }
+    },
+    "MATICUSDT": {
+        "runBet": {
+            "next_buy_price": 1.805,
+            "grid_sell_price": 1.81,
+            "step": 0,
+            "recorded_price": []
+        },
+        "config": {
+            "cointype": "MATICUSDT",
+            "profit_ratio": 0.2,
+            "double_throw_ratio": 0.5,
+            "quantity": [
+                10,
+                20,
+                30
+            ]
+        }
+    }
+}
