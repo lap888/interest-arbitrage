@@ -1,8 +1,8 @@
 // const Future = require('./binance-futures-connector/src/future')
 const { Future } = require('binance-futures-connector')
 
-const apiKey = 'bN6n50Jjc8R50ob0qwQimgn74zCOXanRMAZbXluYDghfBnUWju59lVCD2Be4zqfQ'
-const apiSecret = 'nc5DDcgE1tPPnVthi2hio63smc4eVdkhsYbnkI1GLOfslTdYElBpEZtn54SHXh4H'
+const apiKey = ''
+const apiSecret = ''
 const proxyIp = ''
 const proxy = ''
 const { Console } = require('console')
